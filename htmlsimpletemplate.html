@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: flex;
+            width: 100%;
+        }
+        .headerheight{
+            line-height: 100px;
+            vertical-align: middle;
+        }
+        .col-30{
+            width: 30%;
+            text-align: center;
+        }
+        .col-70{
+            width: 70%;
+            text-align: center;
+        }
+        .bggreen{
+            background-color: green;
+            color: white;
+        }
+        .bgred{
+            background-color: red;
+            color: white;
+        }
+        .secheight{
+            line-height: 350px;
+            text-align: center;
+            vertical-align: middle;
+
+        }
+        .bgblue{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="row bggreen headerheight">
+            <div class="col-30">
+                <h2>Header</h2>
+            </div>
+            <div class="col-70">
+                <h2>Height and width 100px</h2>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="row secheight">
+            <div class="col-30 bgred">
+                <h2>left pane</h2>
+            </div>
+            <div class="col-70">
+                <h2>content area</h2>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row bgblue headerheight">
+            <div class="col-30">
+                <h2>Footer</h2>
+            </div>
+            <div class="col-70">
+                <h2>Height and width 100px</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
